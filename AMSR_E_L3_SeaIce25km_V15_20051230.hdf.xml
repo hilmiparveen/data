@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GranuleMetaDataFile SYSTEM "http://ecsinfo.gsfc.nasa.gov/ECSInfo/ecsmetadata/dtds/DPL/ECS/ScienceGranuleMetadata.dtd">
+<GranuleMetaDataFile>
+    <DTDVersion>1.0</DTDVersion>
+    <DataCenterId>NSIDC</DataCenterId>
+    <GranuleURMetaData>
+        <GranuleUR>SC:AE_SI25.003:50983491</GranuleUR>
+        <DbID>50983491</DbID>
+        <InsertTime>2014-07-19 14:00:32.364</InsertTime>
+        <LastUpdate>2014-07-19 14:00:32.364</LastUpdate>
+        <CollectionMetaData>
+            <ShortName>AE_SI25</ShortName>
+            <VersionID>3</VersionID>
+        </CollectionMetaData>
+        <DataFiles>
+            <DataFileContainer>
+                <DistributedFileName>AMSR_E_L3_SeaIce25km_V15_20051230.hdf</DistributedFileName>
+                <FileSize>20745019</FileSize>
+                <ChecksumType>CKSUM</ChecksumType>
+                <Checksum>3828828979</Checksum>
+                <ChecksumOrigin>DPLIngst</ChecksumOrigin>
+            </DataFileContainer>
+        </DataFiles>
+        <ECSDataGranule>
+            <SizeMBECSDataGranule>19.784</SizeMBECSDataGranule>
+            <ReprocessingActual>reprocessed twice</ReprocessingActual>
+            <LocalGranuleID>AMSR_E_L3_SeaIce25km_V15_20051230.hdf</LocalGranuleID>
+            <ProductionDateTime>2014-07-19 19:30:51</ProductionDateTime>
+        </ECSDataGranule>
+        <PGEVersionClass>
+            <PGEVersion>15</PGEVersion>
+        </PGEVersionClass>
+        <RangeDateTime>
+            <RangeEndingTime>00:08:34.590000</RangeEndingTime>
+            <RangeEndingDate>2005-12-31</RangeEndingDate>
+            <RangeBeginningTime>00:14:09.330000</RangeBeginningTime>
+            <RangeBeginningDate>2005-12-30</RangeBeginningDate>
+        </RangeDateTime>
+        <SpatialDomainContainer>
+            <HorizontalSpatialDomainContainer>
+                <BoundingRectangle>
+                    <WestBoundingCoordinate>-180.0</WestBoundingCoordinate>
+                    <NorthBoundingCoordinate>90.0</NorthBoundingCoordinate>
+                    <EastBoundingCoordinate>180.0</EastBoundingCoordinate>
+                    <SouthBoundingCoordinate>-90.0</SouthBoundingCoordinate>
+                </BoundingRectangle>
+            </HorizontalSpatialDomainContainer>
+        </SpatialDomainContainer>
+        <MeasuredParameter>
+            <MeasuredParameterContainer>
+                <ParameterName>Sea Ice Parameters</ParameterName>
+                <QAStats>
+                    <QAPercentMissingData>0</QAPercentMissingData>
+                    <QAPercentOutofBoundsData>0</QAPercentOutofBoundsData>
+                </QAStats>
+                <QAFlags>
+                    <AutomaticQualityFlag>Passed</AutomaticQualityFlag>
+                    <AutomaticQualityFlagExplanation>Program Execution Completed</AutomaticQualityFlagExplanation>
+                    <OperationalQualityFlag>Not Investigated</OperationalQualityFlag>
+                    <OperationalQualityFlagExplanation>Currently not used</OperationalQualityFlagExplanation>
+                    <ScienceQualityFlag>Passed</ScienceQualityFlag>
+                    <ScienceQualityFlagExplanation>Mask files are recent</ScienceQualityFlagExplanation>
+                </QAFlags>
+            </MeasuredParameterContainer>
+        </MeasuredParameter>
+        <PSAs>
+            <PSA>
+                <PSAName>identifier_product_doi</PSAName>
+                <PSAValue>10.5067/AMSR-E/AE_SI25.003</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>identifier_product_doi_authority</PSAName>
+                <PSAValue>http://dx.doi.org</PSAValue>
+            </PSA>
+        </PSAs>
+        <InputGranule>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512300014_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512300103_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512300153_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512300242_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512300331_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512300421_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512300510_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512300600_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512300649_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512300739_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512300828_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512300918_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512301007_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512301056_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512301146_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512301235_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512301325_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512301414_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512301504_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512301553_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512301643_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512301732_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512301821_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512301911_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512302000_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512302050_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512302139_A.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512302229_D.hdf</InputPointer>
+            <InputPointer>AMSR_E_L2A_BrightnessTemperatures_V12_200512302318_A.hdf</InputPointer>
+        </InputGranule>
+        <BrowseProduct>
+            <BrowseGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:15:[NSIDC:DSSDSRV]:22:BR:Browse.001:50983495</BrowseGranuleId>
+        </BrowseProduct>
+        <PHProduct>
+            <PHGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:15:[NSIDC:DSSDSRV]:18:PH:PH.001:50983493</PHGranuleId>
+        </PHProduct>
+        <QAProduct>
+            <QAGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:15:[NSIDC:DSSDSRV]:18:QA:QA.001:50983494</QAGranuleId>
+        </QAProduct>
+    </GranuleURMetaData>
+</GranuleMetaDataFile>
+
+
+
+
